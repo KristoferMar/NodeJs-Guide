@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-guide",
+  "version": "1.0.0",
+  "description": "NodeJs Guide with best practice implementations",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristoferMar/NodeJs-Guide.git"
+  },
+  "author": "Krsitofer Mar Einarsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristoferMar/NodeJs-Guide/issues"
+  },
+  "homepage": "https://github.com/KristoferMar/NodeJs-Guide#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
