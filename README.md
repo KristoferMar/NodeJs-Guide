@@ -44,5 +44,26 @@ Inittialize a proejct for npm. <br>
 
 <h1>Testing</h1>
 A very good way to test node.js is by using
-- Mocha
+- Mocha (can't run interly independent), Jasmine, Jest
 - Supertest
+o
+<h2>Automated Testing</h2>
+- The time it takes to manually test functions will grow exponentially throughout development and that's why we are in need of automated testing. 
+- Automated tests should be part of our deployment process.
+- It enables us to refactor our code with confidence.
+
+<h2>Unit Test</h2>
+- Tests a unit of an application without its external dependencies.
+- Cheap to write 
+- Execute fast
+
+<h2>Integration Test</h2>
+- Tests the application with it's external dependencies
+- Gives you overview with health of application
+- Good for high data driven application (With multiple database integrations)
+
+<h2>End-To-End Test</h2>
+- Drives an application through its UI.
+- Gives you the greatest confidence
+- Very slow
+- Very brittle (easily breakable)
